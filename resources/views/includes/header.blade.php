@@ -34,8 +34,7 @@
               <div class="col-lg-6 d-flex justify-content-lg-end">
                   <ul class="userlogin">
                       <li><a href="/login">login</a></li>
-                      <li><a href="/register">Register</a></li>
-                   
+                      <!--<li><a href="/register">Register</a></li>-->
                   </ul>
               </div>
           </div>

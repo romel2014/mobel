@@ -43,6 +43,16 @@ $(document).ready(function(){
  	//	    Customization Steps	
  	//****************************************
 
+	$(".option-dependent-hidden").hide();
+
+	$("#sliding").click(function(){
+		$(".option-dependent-hidden").show();
+	});
+
+	$("#hinged").click(function(){
+		$(".option-dependent-hidden").hide();
+	});
+
 	$("#next").click(function(){
 	  	 	
 

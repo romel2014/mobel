@@ -1,13 +1,12 @@
 
 @extends('admin-layout')
 
-
 @section('content')
 
     <div class="col-lg-4">
     	<div class="sidebar">
     		<ul class="menu">
-    			<li class="active"><a href="/products">Wardrobe Types</a></li>
+    			<!--<li class="active"><a href="/products">Wardrobe Types</a></li>-->
     			<li><a href="/sizes">Sizes</a></li>
     			<li><a href="/frame">Frame</a></li>
     			<li><a href="/front-door">Front Door</a></li>

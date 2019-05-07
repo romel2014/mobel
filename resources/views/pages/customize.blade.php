@@ -39,14 +39,24 @@
                                                                     <h4>Choose Type:</h4>
                                                                    
                                                                     <div class="form-group">
-                                                                      <div class="form-check form-check-inline">
-                                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="hinged" value="Hinged">
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" name="doortype" id="hinged" value="hinged">
                                                                             <label class="form-check-label" for="hinged">Hinged</label>
                                                                           </div>
                                                                           <div class="form-check form-check-inline">
-                                                                            <input class="form-check-input" id="sliding" type="radio" name="inlineRadioOptions" value="Sliding">
+                                                                            <input class="form-check-input" id="sliding" type="radio" name="doortype" value="sliding">
                                                                             <label class="form-check-label" for="sliding">Sliding</label>
-                                                                      </div>
+                                                                          </div>
+                                                                    </div>
+                                                                    <div class="form-group option-dependent-hidden">
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" type="radio" name="doorcount" id="twodoor" value="twodoor">
+                                                                            <label class="form-check-label" for="twodoor">Two Door</label>
+                                                                          </div>
+                                                                          <div class="form-check form-check-inline">
+                                                                            <input class="form-check-input" id="threedoor" type="radio" name="doorcount" value="threedoor">
+                                                                            <label class="form-check-label" for="threedoor">Three Door</label>
+                                                                          </div>
                                                                     </div>
                                                                   </div><!-- light-bg -->  
 
@@ -134,17 +144,21 @@
                                                       <div class="light-bg">
                                                           <h4>With Drawer or Mirror?</h4>
 
-                                                          <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                                            <label class="form-check-label" for="inlineRadio1">None</label>
+                                                          <div class="form-check form-check">
+                                                            <input class="form-check-input" type="radio" name="drawermirror" id="none" value="none">
+                                                            <label class="form-check-label" for="none">None</label>
                                                           </div>
-                                                          <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                            <label class="form-check-label" for="inlineRadio2">Drawer</label>
+                                                          <div class="form-check form-check">
+                                                            <input class="form-check-input" type="radio" name="drawermirror" id="drawer" value="drawer">
+                                                            <label class="form-check-label" for="drawer">Drawer</label>
                                                           </div>
-                                                          <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                                            <label class="form-check-label" for="inlineRadio3">Mirror</label>
+                                                          <div class="form-check form-check">
+                                                            <input class="form-check-input" type="radio" name="drawermirror" id="mirror" value="mirror">
+                                                            <label class="form-check-label" for="mirror">Mirror</label>
+                                                          </div>
+                                                          <div class="form-check form-check">
+                                                            <input class="form-check-input" type="radio" name="drawermirror" id="both" value="both">
+                                                            <label class="form-check-label" for="both">Both</label>
                                                           </div>
 
                                                       </div> <!-- ./light-bg --> 
